@@ -1,0 +1,14 @@
+cc_library_static {
+    name: "libinit_oneplus_dodge",
+    header_libs: [
+        "libbase_headers",
+    ],
+    cflags: [
+        "-Wall",
+    ],
+    static_libs: [
+        "libbase",
+    ],
+    srcs: ["libinit_oneplus_dodge.cpp"],
+    recovery_available: true,
+}
